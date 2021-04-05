@@ -71,23 +71,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void checkBmiState(double bmi){
         if(bmi < 18.5)
         {
-            bmiTextView.setText("Pothranjen");
+            bmiTextView.setText("Underweight");
         }
         else if(bmi >= 18.5 && bmi < 24.9)
         {
-            bmiTextView.setText("Zdrav");
+            bmiTextView.setText("Healthy");
         }
         else if(bmi >= 24.9 && bmi < 29.9)
         {
-            bmiTextView.setText("Debeo");
+            bmiTextView.setText("Overweight");
         }
         else if(bmi >= 29.9 && bmi < 34.9)
         {
-            bmiTextView.setText("Pretil");
+            bmiTextView.setText("Obese");
         }
         else
         {
-            bmiTextView.setText(" Ekstremno pretil");
+            bmiTextView.setText(" Extremely obese");
         }
 
     }
