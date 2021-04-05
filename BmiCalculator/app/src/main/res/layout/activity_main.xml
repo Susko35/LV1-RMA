@@ -72,10 +72,22 @@
 
 
     <ImageView
+        android:id="@+id/bmiImage"
         android:layout_width="match_parent"
-        android:layout_height="155dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
         android:src="@drawable/coach_bmi"
+        android:visibility="invisible"
         ></ImageView>
+
+    <TextView
+        android:id="@+id/bmixTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m2, resulting from mass in kilograms and height in metres."
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
